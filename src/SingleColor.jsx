@@ -26,6 +26,7 @@ export const SingleColor = ({ index, color }) => {
       <p>HEX: #{color.hex}</p>
       <p>RGB: {color.rgb}</p>
       <p>Alpha: {color.alpha}</p>
+      <p>HSL: {color.hsl}</p>
     </article>
   );
 };
